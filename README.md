@@ -33,6 +33,7 @@ The rooms are not necessarily the same size. If Jon walks into the obstacles in 
 he will alert the guards and get caught.
 
 A simple room might look like:
+```
 @@@@@@@
 @@....@
 I...@@@
@@ -40,6 +41,7 @@ I...@@@
 @@@@@.@
 @T....@
 @@@@.@@
+```
 
 Unfortunately, Jon cannot see anything in the dark, so he can only move in the North, South, East, or West directions. 
 That is, he may not travel along the diagonals of the room but still he could feel the obstables by the training of being night’s watch and return to another directions. 
@@ -57,8 +59,10 @@ If Jon cannot find an exit in the first K-1 rooms, or the tunnel in the last roo
 ## Routing approach
 
 You will develop two routing approaches for Jon:
+```
 1. Find the first valid path using a queue.
 2. Find the first valid path using a stack.
+```
 
 Note that the approaches given here are high-level.
 You will need to expand upon them to finish this project.
@@ -71,6 +75,7 @@ The rest of the file is divided into K sections describing each room.
 In the first line of each section, the size of the room (M rows by N columns) is specified as a pair of integers, separated by a single space. 
 The following M lines will contain exactly N characters for each. 
 For example, the following is a legal input file (though it may be physically unrealistic):
+```
 2
 3 3
 @.@
@@ -80,6 +85,7 @@ I.@
 ..I
 .T@
 ...
+```
 
 The output will consist of K lines, where K is the number of rooms. 
 Each line is a sequence of moves in directions of “N”, “S”, “E”, “W”, and must end with a end of line character. 
@@ -98,8 +104,10 @@ If you use the STL’s implementations, which will save you substantial programm
 ## Command Line Arguments
 
 We will run your program with one of the commands:
+```
 ./escape.exe –Stack < [testfile]
 ./escape.exe –Queue < [testfile]
+```
 
 Legal command line inputs include exactly one of –Stack and –Queue. 
 If –Stack is present, then use the stack-based approach, and use the queue-based approach if –Queue is present. 
