@@ -102,7 +102,7 @@ You are encouraged to implement your own stack and queue classes.
 If you use the STL’s implementations, which will save you substantial programming time and most likely decrease the overall runtime of your program 
 (STL containers have been highly optimized over many years). 
 
-## Command Line Arguments
+## Command line arguments
 
 We will run your program with one of the commands:
 ```
