@@ -1,8 +1,6 @@
 # Project Dungeon Escape
 
-Academic project completed in C++ Programming for FinTech 
-
-Shanghai Advanced Institute of Finance – Shanghai Jiao Tong University (SJTU)
+This project was developed as part of the "C++ Programming for FinTech" course at the Shanghai Advanced Institute of Finance (SJTU).
 
 ## Overview
 
